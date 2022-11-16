@@ -1,0 +1,179 @@
+:root {
+  --primaryC: #35497F;
+  --secondaryC: #7A8DC5;
+}
+
+body {
+    font-family: "Avenir Next", Calibri, Verdana, sans-serif;
+  }
+
+/* Nav Bar*/
+.topnav {
+    background-color: var(--secondaryC);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: var(--primaryC);
+    color: white;
+  }
+  .topnav a.active {
+    background-color: var(--primaryC);
+    color: white;
+  }
+
+
+h2.Header1{
+    color: var(--primaryC);
+    font-size: 50px;
+}
+h2.Header2{
+    color: var(--secondaryC);
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0px 30px 0px 0px;
+}
+td.head{
+    text-align: center; 
+    vertical-align: middle;
+    border: 1px solid rgb(107, 106, 106);
+}
+.button1 {
+    background-color:#ffffff;
+    color: rgb(0, 0, 0);
+    border:1px solid rgb(3, 3, 3);
+    border-radius:10px; 
+  }
+  .button1:hover {
+    background-color:var(--primaryC);
+    transition: 0.7s;
+}
+
+
+
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    padding: 30px;
+
+  }
+td.bill{
+    padding: 0px 0px 0px 15px ;
+}
+th.bill{
+    background-color: var(--primaryC); 
+    text-align: left;
+    color:#ffffff;
+    padding: 0px 0px 0px 15px;
+}
+
+
+
+
+
+td.inv{
+    padding: 0px 0px 0px 15px ;
+    word-wrap: break-word;
+}
+th.inv{
+    background-color: var(--primaryC); 
+    text-align: left;
+    color:#ffffff;
+    padding: 0px 0px 0px 15px;
+}
+tr.inv:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+
+td.foot{
+    text-align: center; 
+    vertical-align: middle;
+}
+td.footT{
+    text-align: center; 
+    vertical-align: middle;
+    border: 1px solid rgb(107, 106, 106);
+    background-color: var(--secondaryC);
+}
+.input_foot{
+    text-align: right;
+}
+
+.button {
+  background-color: var(--secondaryC);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 12px;
+}
+.button:hover {
+  background-color:var(--primaryC);
+  transition: 0.7s;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column_Head {
+    float: left;
+    width: 50%;
+  }
+
+  .column_Head.txtright {
+    text-align: right;
+    padding: 30px;
+  }
+  
+  .column_Head.txtleft {
+    text-align: left;
+    padding: 30px;
+}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+
+  .column_bill {
+    float: left;
+    width: 100%;
+  }
+
+  .column_inv {
+    float: left;
+    width: 100%;
+  }
+  /* DATA TABLE AREA*/
+  @media screen and (max-width: 600px) {
+    .column_Head {
+      width: 100%;
+    }
+
+
+
+
+  }
